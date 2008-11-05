@@ -1,0 +1,31 @@
+8
+
+dir
+1481
+svn://svn.icculus.org/quake3/trunk/code/libspeex/include
+svn://svn.icculus.org/quake3
+
+
+
+2008-07-06T00:28:42.638122Z
+1406
+tma
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+edf5b092-35ff-0310-97b2-ce42778d08ea
+
+speex
+dir
+

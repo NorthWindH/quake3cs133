@@ -1,0 +1,88 @@
+8
+
+dir
+1481
+svn://svn.icculus.org/quake3/trunk/code
+svn://svn.icculus.org/quake3
+
+
+
+2008-11-03T17:03:54.778626Z
+1481
+ludwig
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+edf5b092-35ff-0310-97b2-ce42778d08ea
+
+asm
+dir
+
+q3_ui
+dir
+
+sdl
+dir
+
+SDL12
+dir
+
+libs
+dir
+
+jpeg-6b
+dir
+
+AL
+dir
+
+libcurl
+dir
+
+tools
+dir
+
+server
+dir
+
+renderer
+dir
+
+game
+dir
+
+qcommon
+dir
+
+null
+dir
+
+libspeex
+dir
+
+botlib
+dir
+
+cgame
+dir
+
+ui
+dir
+
+client
+dir
+
+sys
+dir
+

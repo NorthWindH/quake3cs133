@@ -1,0 +1,58 @@
+8
+
+dir
+1481
+svn://svn.icculus.org/quake3/trunk/misc/setup/pkg
+svn://svn.icculus.org/quake3
+
+
+
+2008-03-28T16:16:38.829032Z
+1288
+thilo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+edf5b092-35ff-0310-97b2-ce42778d08ea
+
+ioquake3
+dir
+
+ioq3ded.sh
+file
+
+
+
+
+2008-11-05T02:24:54.000000Z
+5498dfce3175f42b21009d0a1c1c082a
+2008-03-28T16:16:38.829032Z
+1288
+thilo
+
+ioquake3d
+dir
+
+ioquake3.sh
+file
+
+
+
+
+2008-11-05T02:24:54.000000Z
+27ac98863a239ce6119b2e722fde3458
+2008-03-28T16:16:38.829032Z
+1288
+thilo
+
