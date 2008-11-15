@@ -212,7 +212,7 @@ endif
 
 ## Defaults
 LIB=lib
-
+CC=gcc-4.2
 INSTALL=install
 MKDIR=mkdir
 
@@ -286,7 +286,7 @@ ifeq ($(PLATFORM),linux)
   SHLIBLDFLAGS=-shared $(LDFLAGS)
 
   THREAD_LIBS=-lpthread
-  LIBS=-ldl -lm
+  LIBS=-ldl -lm -fopenmp
 
   CLIENT_LIBS=$(shell sdl-config --libs) -lGL
 
