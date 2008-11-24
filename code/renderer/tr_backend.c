@@ -1099,7 +1099,10 @@ const void	*RB_SwapBuffers( const void *data ) {
 
 		stencilReadback = ri.Hunk_AllocateTempMemory( glConfig.vidWidth * glConfig.vidHeight );
 		qglReadPixels( 0, 0, glConfig.vidWidth, glConfig.vidHeight, GL_STENCIL_INDEX, GL_UNSIGNED_BYTE, stencilReadback );
-
+    
+    //CS133: WOO super cool speedup coming through
+    omp_set_num_threads(2);
+#pragma omp parallel for private (i) reduction (+:sum)
 		for ( i = 0; i < glConfig.vidWidth * glConfig.vidHeight; i++ ) {
 			sum += stencilReadback[i];
 		}
